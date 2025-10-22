@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <title>Galeria N+R</title>
+</head>
+<body>
+    <header>
+       <img src="src/logo.png" id="inicio" alt="">
+       <h1>GALERIA DE FOTOS</h1>
+           <nav>
+           <button class="menu-btn" id="menu-btn">☰</button>
+
+  <ul class="menu" id="menu">
+    <li><a href="#inicio">Início</a></li>
+    <li class="dropdown">
+      <a>Datas ▼</a>
+      <div class="dropdown-content" id="dropdown-content">
+        <a href="#2024">2024</a>
+        <a href="#2025">2025</a>
+      </div>
+    </li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+    </header>
+    <div class="divisao">
+    <h1 id="2024">2024</h1>
+    </div>
+    <main class="flex">
+        <section class="section1">
+            <img src="src/1.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/2.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/3.jpg" alt="">
+        </section>
+         <section class="section2">
+            <img src="src/5.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/6.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/7.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/8.jpg" alt="">
+        </section>
+
+        <section class="section1">
+            <img src="src/9.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/10.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/11.jpg" alt="">
+        </section>
+         <section class="section2">
+            <img src="src/12.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/13.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/14.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/16.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/17.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/18.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/20.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/21.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/22.jpg" alt="">
+        </section>
+    </main>
+    <div class="imar">
+        <p>meu mundo sem vc se torna algo impossivel amor, estou completamenta apaixonado por vc, sempre tive amor, desde do dia do Eu te amo até agora amorzinho e para todo sempre minha princesa linda <3 <3 EU TE AMO MINHA VIDA <3 </p>
+        <video src="src/1video.mp4"autoplay muted loop controls ></video>
+    </div>
+
+    <div class="divisao">
+    <h1 id="2025">2025</h1>
+    </div>
+    <div class="parte">
+      <section class="section1">
+            <img src="src/23.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/24.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/25.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/26.jpg" alt="">
+        </section>
+         <section class="section2">
+            <img src="src/27.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/28.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/29.jpg" alt="">
+        </section>  
+
+        <section class="section1">
+            <img src="src/30.jpg" alt="">
+        </section>
+        <section class="section1">
+            <img src="src/31.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/32.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/33.jpg" alt="">
+        </section>
+         <section class="section2">
+            <img src="src/34.jpg" alt="">
+        </section>
+        <div class="imar">
+        <p>Meu 2025 está sendo muito bom com vc ao meu lado minha vida, q esse álbum fique para nossa vida e eternidade minha princesa <3 <3 EU TE AMO MINHA VIDA <3 </p>
+        <video src="src/2video.mp4"autoplay muted loop controls ></video>
+    </div>
+        <section class="section1">
+            <img src="src/38.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/39.jpg" alt="">
+        </section>
+        <section class="section2">
+            <img src="src/40.jpg" alt="">
+        </section>
+         <section class="section2">
+            <img src="src/41.jpg" alt="">
+        </section>
+         <section class="section1">
+            <img src="src/54.jpg" alt="">
+        </section> <section class="section1">
+            <img src="src/55.jpg" alt="">
+        </section>
+
+    </div>
+
+    
+    <script>
+const menuBtn = document.getElementById('menu-btn');
+const menu = document.getElementById('menu');
+const dropdown = document.querySelector('.dropdown > a');
+const dropdownContent = document.getElementById('dropdown-content');
+
+// Menu mobile
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
+
+// Dropdown mobile
+dropdown.addEventListener('click', (e) => {
+  if (window.innerWidth <= 768) {
+    e.preventDefault();
+    dropdownContent.classList.toggle('show');
+  }
+});
+
+// Fecha dropdown ao clicar fora
+document.addEventListener('click', (e) => {
+  if (!dropdownContent.contains(e.target) && e.target !== dropdown) {
+    dropdownContent.classList.remove('show');
+  }
+});
+
+// Fecha menu e dropdown ao clicar em links
+document.querySelectorAll('.menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    menu.classList.remove('show');
+    dropdownContent.classList.remove('show');
+  });
+});
+</script>
+
+
+<footer>
+        <div class="direitos">
+            <span>Criado por
+Renan Modesto
+                &#169; 2025 todos os direitos reservados
+            </span>
+        </div>
+    </footer>
+
+</body>
+</html>
