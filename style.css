@@ -205,7 +205,6 @@ nav {
     cursor: pointer;
   }
 
-  /* ======== MENU MOBILE ======== */
 
 @media (max-width: 768px) {
     .menu {
@@ -213,6 +212,7 @@ nav {
       flex-direction: column;
       width: 100%;
       background-color: #1b1242;
+      border-radius: 20px;
     }
 
     .menu.show {
@@ -243,4 +243,5 @@ nav {
   footer a{
     color: #000000;
 }
+
 
